@@ -7,6 +7,7 @@
 - [ECS Execの前提条件](https://docs.aws.amazon.com/ja_jp/AmazonECS/latest/developerguide/ecs-exec.html#ecs-exec-prerequisites)を満たしていること
 - ECSサービス/タスクにてECS Execが有効化されていること
 - スクリプト実行端末にjqがインストールされていること
+- 対象のリージョンは環境変数`AWS_DEFAULT_REGION`に基づく
 
 ## 動作フロー
 
